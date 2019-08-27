@@ -28,3 +28,7 @@
 .interesting-fact {
     font-style: italic;
 }
+
+.list-item-label {
+    font-weight: bold;
+}
