@@ -1,1 +1,18 @@
-/* add your CSS here */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#card {
+    width: 33vw;
+    border: 1px solid #cccccc;
+    
+} 
+
+.card-body {
+  border: 5px;
+}
+.card-image {
+    max-width: 100%;
+}
