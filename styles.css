@@ -5,14 +5,26 @@
 }
 
 #card {
-    width: 33vw;
+    width: 33%;
     border: 1px solid #cccccc;
-    
+    /* position: fixed;
+    left: 33vw; */
 } 
 
-.card-body {
-  border: 5px;
+.animal-name {
+    padding: 1em .5em 1em;
 }
+
 .card-image {
-    max-width: 100%;
+   width: 100%;
+   margin: 0 .5em;
+   height: 200px;
+}
+
+.card-body {
+  border: 1px solid #cccccc ;
+}
+
+.interesting-fact {
+    font-style: italic;
 }
