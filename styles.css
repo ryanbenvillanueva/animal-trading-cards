@@ -7,8 +7,8 @@
 #card {
     width: 33%;
     border: 1px solid #cccccc;
-    /* position: fixed;
-    left: 33vw; */
+    position: fixed;
+    left: 33vw;
 } 
 
 .animal-name {
@@ -16,13 +16,15 @@
 }
 
 .card-image {
-   width: 100%;
-   margin: 0 .5em;
-   height: 200px;
+   width: 95%;
+   margin: 0 .7em;
+   height: 15em;
 }
 
 .card-body {
-  border: 1px solid #cccccc ;
+  width: 95%;
+  margin: 0 .7em;
+  border: 1px solid #cccccc;
 }
 
 .interesting-fact {
