@@ -5,36 +5,54 @@
 }
 
 #card {
-    width: 33%;
+    width: 324px;
     border: 1px solid #cccccc;
-    position: fixed;
+    position: absolute;
     left: 33vw;
+    top:5vh;
+    padding-bottom: .5em;
+    box-shadow: 6px 4px 4px #dddddd;
 } 
 
 .animal-name {
-    padding: 1em .5em 1em;
+    padding: 1em .5em 0;
 }
 
 .card-image {
-   width: 95%;
+   width: 300px;
    margin: 0 .7em;
-   height: 15em;
+   padding-top: 1em;
+   padding-bottom: .5em;
+   height: 200px;
 }
 
 .card-body {
-  width: 95%;
+  width: 300px;
   margin: 0 .7em;
   border: 1px solid #cccccc;
 }
 
 .interesting-fact {
     font-style: italic;
+    font-size: .8em;
+    padding: 1.5em .5em 0;
+}
+
+.animal-information {
+    padding: 1em .5em .5em;
 }
 
 .list-item-label {
-    font-weight: bold;
+    font-weight: bolder;
+
 }
 
 .list-style {
     list-style: none;
+    font-size: .8em;
+}
+
+.animal-description {
+    padding: .5em .5em 1.5em;
+    font-size: .8em;
 }
